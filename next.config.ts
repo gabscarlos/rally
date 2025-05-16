@@ -20,6 +20,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "group4racing.com",
       },
+      {
+        protocol: "https",
+        hostname: "flagcdn.com",
+      },
     ],
   },
 };

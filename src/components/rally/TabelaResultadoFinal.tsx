@@ -9,6 +9,7 @@ import {
   TableHeadCell,
   TableRow,
 } from "flowbite-react";
+import Image from "next/image";
 
 type ResultadoFinal = {
   position: number;
@@ -56,11 +57,13 @@ export default function TabelaResultadoFinal({
               <TableCell>{result.driver}</TableCell>
               <TableCell>
                 <div className="flex items-center gap-1">
-                  <img
+                  <Image
                     src={`https://flagcdn.com/w40/${getCountryCode(
                       result.nationality
                     )}.png`}
                     alt={result.nationality}
+                    width={40}
+                    height={40}
                     className="w-5 h-4 object-cover rounded-sm"
                   />
                   {result.nationality}

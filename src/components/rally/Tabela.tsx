@@ -11,6 +11,7 @@ import {
   TableHeadCell,
   TableRow,
 } from "flowbite-react";
+import Image from "next/image";
 
 type StageResult = {
   SS: number;
@@ -87,11 +88,13 @@ export default function Tabela({ results, ssName }: Props) {
                 <TableCell>{racer["User name"]}</TableCell>
                 <TableCell className="px-2 py-1 text-center">
                   <div className="flex items-center gap-1">
-                    <img
+                    <Image
                       src={`https://flagcdn.com/w40/${getCountryCode(
                         racer.Nationality
                       )}.png`}
                       alt={racer.Nationality}
+                      width={40}
+                      height={40}
                       className="w-5 h-4 object-cover rounded-sm"
                     />
                     {racer.Nationality}
