@@ -1,7 +1,27 @@
 import type { NextConfig } from "next";
+import withFlowbiteReact from "flowbite-react/plugin/nextjs";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "traxion.gg",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn1.epicgames.com",
+      },
+      {
+        protocol: "https",
+        hostname: "supercars.net",
+      },
+      {
+        protocol: "https",
+        hostname: "group4racing.com",
+      },
+    ],
+  },
 };
 
-export default nextConfig;
+export default withFlowbiteReact(nextConfig);
