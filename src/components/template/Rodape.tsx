@@ -20,7 +20,7 @@ export default function Rodape() {
           </div>
           <div className="flex flex-col gap-1">
             <span className="text-2xl font-bold pb-2">Contato</span>
-            <span className="text-sm">rally@gmail.com</span>
+            <span className="text-sm">gabrielcarllos@yahoo.com.br</span>
             <div className=" text-sm flex items-center gap-2 justify-center md:justify-start">
               <IconBrandWhatsapp size={20} className="text-green-500" />
               <span>WhatsApp</span>

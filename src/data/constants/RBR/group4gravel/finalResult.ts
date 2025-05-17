@@ -1,4 +1,4 @@
-import FinalResultInterface from "../RBR/FinalResultInterface";
+import FinalResultInterface from "../FinalResultInterface";
 
 const finalResult: FinalResultInterface[] = [
   {

@@ -1,0 +1,66 @@
+import SSInterfaceWRC from "../SSIterfaceWRC";
+
+export const SS6: SSInterfaceWRC[] = [
+  {
+    Rank: 1,
+    DisplayName: "victortxai",
+    Vehicle: "Ford Escort MK2",
+    Time: "00:03:23.3010000",
+    TimePenalty: "00:00:00",
+    DifferenceToFirst: "00:00:00",
+    Platform: "STEAM",
+    "": "",
+  },
+  {
+    Rank: 2,
+    DisplayName: "PapaizitooLive",
+    Vehicle: "Ford Escort MK2",
+    Time: "00:03:42.5000000",
+    TimePenalty: "00:00:00",
+    DifferenceToFirst: "00:00:19.1990000",
+    Platform: "STEAM",
+    "": "",
+  },
+  {
+    Rank: 3,
+    DisplayName: "RaffaellRS",
+    Vehicle: "Fiat 131 Abarth Rally",
+    Time: "00:03:45.9900000",
+    TimePenalty: "00:00:00",
+    DifferenceToFirst: "00:00:22.6890000",
+    Platform: "STEAM",
+    "": "",
+  },
+  {
+    Rank: 4,
+    DisplayName: "gabscarlos",
+    Vehicle: "Fiat 131 Abarth Rally",
+    Time: "00:03:46.5210000",
+    TimePenalty: "00:00:00",
+    DifferenceToFirst: "00:00:23.2200000",
+    Platform: "STEAM",
+    "": "",
+  },
+  {
+    Rank: 5,
+    DisplayName: "gofgamer",
+    Vehicle: "Fiat 131 Abarth Rally",
+    Time: "00:04:06.4960000",
+    TimePenalty: "00:00:05",
+    DifferenceToFirst: "00:00:43.1950000",
+    Platform: "STEAM",
+    "": "",
+  },
+  {
+    Rank: 6,
+    DisplayName: "DancyPolecat593",
+    Vehicle: "Alpine Renault A110 1600 S",
+    Time: "00:04:13.6340000",
+    TimePenalty: "00:00:00",
+    DifferenceToFirst: "00:00:50.3330000",
+    Platform: "XBOX",
+    "": "",
+  },
+];
+
+export default SS6;

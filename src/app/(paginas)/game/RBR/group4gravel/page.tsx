@@ -4,10 +4,10 @@ import { useState } from "react";
 import Tabela from "@/components/rally/Tabela";
 import TabelaResultadoFinal from "@/components/rally/TabelaResultadoFinal";
 import { normalizeResults } from "@/data/utils/normalizeResults";
-import ss1 from "@/data/constants/group4gravel/SS1";
-import ss2 from "@/data/constants/group4gravel/SS2";
-import ss3 from "@/data/constants/group4gravel/SS3";
-import finalResult from "@/data/constants/group4gravel/finalResult";
+import ss1 from "@/data/constants/RBR/group4gravel/SS1";
+import ss2 from "@/data/constants/RBR/group4gravel/SS2";
+import ss3 from "@/data/constants/RBR/group4gravel/SS3";
+import finalResult from "@/data/constants/RBR/group4gravel/finalResult";
 import { normalizeFinalResult } from "@/data/utils/normalizeFinalResult";
 
 const stages = {

@@ -1,0 +1,61 @@
+"use client";
+
+import { useState } from "react";
+import TabelaWRC from "@/components/rally/TabelaWRC";
+import TabelaResultadoFinalWRC from "@/components/rally/TabelaResultadoFinalWRC";
+import ss1 from "@/data/constants/WRC/portugal/SS1";
+import ss2 from "@/data/constants/WRC/portugal/SS2";
+import ss3 from "@/data/constants/WRC/portugal/SS3";
+import finalResult from "@/data/constants/WRC/portugal/finalResult";
+import { normalizeResultsWRC } from "@/data/utils/normalizeResultsWRC";
+import { normalizeFinalResultWRC } from "@/data/utils/normalizeFinalResultWRC";
+import SS4 from "@/data/constants/WRC/portugal/SS4";
+import SS5 from "@/data/constants/WRC/portugal/SS5";
+import SS6 from "@/data/constants/WRC/portugal/SS6";
+
+const stages = {
+  SS1: ss1,
+  SS2: ss2,
+  SS3: ss3,
+  SS4: SS4,
+  SS5: SS5,
+  SS6: SS6,
+};
+
+const options = ["SS1", "SS2", "SS3", "SS4", "SS5", "SS6", "Final"] as const;
+
+export default function Group4GravelPage() {
+  const [selectedOption, setSelectedOption] =
+    useState<(typeof options)[number]>("SS1");
+
+  return (
+    <div className="p-4 container">
+      <div className="flex gap-2 mb-4">
+        {options.map((option) => (
+          <button
+            key={option}
+            onClick={() => setSelectedOption(option)}
+            className={`px-4 py-2 rounded ${
+              selectedOption === option
+                ? "bg-amber-800/80 text-white"
+                : "bg-gray-200 text-black"
+            }`}
+          >
+            {option === "Final" ? "Resultado Final" : option}
+          </button>
+        ))}
+      </div>
+
+      {selectedOption === "Final" ? (
+        <TabelaResultadoFinalWRC
+          results={normalizeFinalResultWRC(finalResult)}
+        />
+      ) : (
+        <TabelaWRC
+          results={normalizeResultsWRC(stages[selectedOption])}
+          ssName={selectedOption}
+        />
+      )}
+    </div>
+  );
+}

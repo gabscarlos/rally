@@ -13,7 +13,7 @@ export function RallyItem(props: RallyItemProps) {
   return (
     <Link
       href={props.url}
-      className="flex flex-col bg-amber-700/20 border border-white/10 rounded-xl overflow-hidden h-64 w-52"
+      className="flex flex-col bg-amber-700/20 border border-white/10 rounded-xl overflow-hidden"
     >
       <div className="flex flex-col items-center gap-2">
         <Image

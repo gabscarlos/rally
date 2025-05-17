@@ -1,4 +1,4 @@
-import SSInterface from "../RBR/SSInterface";
+import SSInterface from "../SSInterface";
 
 const SS3: SSInterface[] = [
   {
