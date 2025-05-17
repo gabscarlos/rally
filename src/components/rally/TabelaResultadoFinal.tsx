@@ -29,23 +29,23 @@ export default function TabelaResultadoFinal({
 }: TabelaResultadoFinalProps) {
   return (
     <div className="overflow-x-auto">
-      <h2 className="text-xl font-bold mb-2 text-white">Resultado Final</h2>
-      <Table striped>
-        <TableHead className="bg-gray-100">
-          <TableHeadCell>#</TableHeadCell>
-          <TableHeadCell>Piloto</TableHeadCell>
-          <TableHeadCell>Nac.</TableHeadCell>
-          <TableHeadCell>Carro</TableHeadCell>
-          <TableHeadCell>Penalty</TableHeadCell>
-          <TableHeadCell>Tempo Total</TableHeadCell>
+      <h2 className="text-xl font-bold mb-2">Resultado Final</h2>
+      <Table hoverable>
+        <TableHead className="text-amber-50">
+          <TableHeadCell className="bg-amber-800/80">#</TableHeadCell>
+          <TableHeadCell className="bg-amber-800/80">Piloto</TableHeadCell>
+          <TableHeadCell className="bg-amber-800/80">Nac.</TableHeadCell>
+          <TableHeadCell className="bg-amber-800/80">Carro</TableHeadCell>
+          <TableHeadCell className="bg-amber-800/80">Penalty</TableHeadCell>
+          <TableHeadCell className="bg-amber-800/80">Tempo Total</TableHeadCell>
         </TableHead>
         <TableBody className="divide-y">
           {results.map((result) => (
             <TableRow
               key={result.position}
-              className="border-gray-700 bg-gray-800"
+              className="bg-amber-100/30 border-amber-900 hover:bg-amber-800/80 hover:text-white"
             >
-              <TableCell className="whitespace-nowrap font-medium text-white">
+              <TableCell className="whitespace-nowrap font-medium">
                 {result.position === 1
                   ? "🏆"
                   : result.position === 2

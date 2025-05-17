@@ -14,15 +14,16 @@ export default function Pagina(props: PaginaProps) {
       className="flex flex-col min-h-screen"
       style={{
         background:
-          "radial-gradient(50% 50% at 50% 50%, #07030d 0%, #141633 100%)",
+          "radial-gradient(50% 50% at 50% 50%, #f5f5dc 0%, #fbf7f5 100%)",
       }}
     >
       <div
         className="flex-1 flex flex-col w-screen"
         style={{
           background: 'url("/background.png")',
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "bottom",
         }}
       >
         {!props.semCabecalho && <Cabecalho />}

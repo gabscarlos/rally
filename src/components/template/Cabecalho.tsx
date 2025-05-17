@@ -7,7 +7,7 @@ export default function Cabecalho() {
       className="flex flex-col h-28"
       style={{
         background:
-          "linear-gradient(90deg, #23133a 0%, #07030d 50%, #23133a 100%)",
+          "linear-gradient(90deg, #fef7c5 0%, #e0d6d0 50%, #fef7c5 100%)",
       }}
     >
       <div className="flex-1 container flex flex-col justify-center">
@@ -17,7 +17,7 @@ export default function Cabecalho() {
           </Link>
         </div>
       </div>
-      <div className="h-px bg-gradient-to-r from-orange-500/20 via-orange-400/80 to-orange-500/20"></div>
+      <div className="h-px bg-gradient-to-r from-orange-500/20 via-orange-900/80 to-orange-500/20"></div>
     </div>
   );
 }

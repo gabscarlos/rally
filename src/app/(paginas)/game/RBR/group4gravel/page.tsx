@@ -23,7 +23,7 @@ export default function Group4GravelPage() {
     useState<(typeof options)[number]>("SS1");
 
   return (
-    <div className="p-4">
+    <div className="p-4 container">
       <div className="flex gap-2 mb-4">
         {options.map((option) => (
           <button
@@ -31,7 +31,7 @@ export default function Group4GravelPage() {
             onClick={() => setSelectedOption(option)}
             className={`px-4 py-2 rounded ${
               selectedOption === option
-                ? "bg-orange-600 text-white"
+                ? "bg-amber-800/80 text-white"
                 : "bg-gray-200 text-black"
             }`}
           >

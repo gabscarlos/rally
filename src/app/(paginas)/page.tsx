@@ -1,20 +1,52 @@
-import { JogoItem } from "@/components/shared/JogoItem";
+import Vantagem from "@/components/landing/Vantagem";
+import Link from "next/link";
+import React from "react";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="flex-1 flex justify-center gap-5 container py-10">
-      <JogoItem
-        id="RBR"
-        nome="RBR"
-        descricao="Resultados RBR"
-        imagem="https://traxion.gg/wp-content/uploads/2021/06/RichardBurnsRally_FeaturedImage.jpg"
+    <main className="px-6 py-10 max-w-6xl mx-auto space-y-20 mt-4">
+      {/* Resultados em tempo real */}
+      <Vantagem
+        inverter
+        imagem="/tabela.png"
+        titulo="🏁 Resultados em Tempo Real"
+        subtitulo="Acompanhe etapas concluídas com tempos por SS, médias e classificação geral."
       />
-      <JogoItem
-        id="WRC"
-        nome="WRC"
-        descricao="Resultados WRC"
-        imagem="https://cdn1.epicgames.com/offer/50b6612049324d0faf8642014139b082/EGS_EASPORTSWRC24_Codemasters_S1_2560x1440-85ade86f7f8563a38f7e121826743a8a"
+
+      {/* Classificações */}
+      <Vantagem
+        imagem="/ranking.png"
+        titulo="📊 Classificações e Rankings"
+        subtitulo="Veja a pontuação atualizada do campeonato e descubra quem lidera cada categoria."
       />
-    </div>
+
+      {/* Jogos */}
+      <Vantagem
+        inverter
+        imagem="/games.png"
+        titulo="🎮 Jogos Oficiais"
+        subtitulo="Richard Burns Rally e EA Sports WRC 24"
+      />
+
+      {/* Comunidade */}
+      <Vantagem
+        imagem="/logo-brc.png"
+        titulo=" 👥 Grupo Brasil Rally Championship"
+        subtitulo="Comunidade apaixonada por rally com eventos semanais e categorias
+          realistas."
+      />
+
+      {/* Navegação extra */}
+      <section className="text-center pt-10 border-t border-gray-700">
+        <p className="text-lg text-amber-950 font-medium">
+          Explore resultados, rankings, histórico e muito mais.
+        </p>
+        <Link href="/game">
+          <button className="mt-4 bg-amber-800/80 text-white font-bold px-6 py-2 rounded-xl hover:bg-amber-800">
+            Ver Campeonatos
+          </button>
+        </Link>
+      </section>
+    </main>
   );
 }

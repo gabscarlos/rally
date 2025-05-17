@@ -8,8 +8,8 @@ import Logo from "../shared/Logo";
 
 export default function Rodape() {
   return (
-    <footer className="flex flex-col bg-black/20 text-zinc-300 mt-10">
-      <div className="h-px bg-gradient-to-r from-orange-500/20 via-orange-400/80 to-orange-500/20"></div>
+    <footer className="flex flex-col bg-black/20 mt-10">
+      <div className="h-px bg-gradient-to-r from-amber-500/20 via-amber-900/80 to-amber-500/20"></div>
       <div className="container flex flex-col py-10 gap-10">
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between text-center md:text-left gap-5 md:gap-0">
           <Logo />
@@ -28,7 +28,7 @@ export default function Rodape() {
           </div>
         </div>
         <div className="flex flex-col md:flex-row items-center gap-1.5 justify-between">
-          <div className="flex gap-2 text-orange-300">
+          <div className="flex gap-2 text-amber-900">
             <IconBrandYoutube size={28} stroke={1} />
             <IconBrandInstagram size={28} stroke={1} />
             <IconBrandFacebook size={28} stroke={1} />

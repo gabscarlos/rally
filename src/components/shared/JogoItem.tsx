@@ -12,7 +12,7 @@ export function JogoItem(props: JogoItemProps) {
   return (
     <Link
       href={`/game/${props.id}`}
-      className="flex flex-col bg-blue-900/20 border border-white/10 rounded-xl overflow-hidden h-80"
+      className="flex flex-col bg-amber-700/20 border border-white/10 rounded-xl overflow-hidden h-80"
     >
       <div className="flex flex-col items-center gap-2">
         <Image
@@ -23,8 +23,8 @@ export function JogoItem(props: JogoItemProps) {
           className="object-contain"
         />
         <div className="flex flex-col items-center mt-4">
-          <h3 className="text-orange-500 text-xl font-bold">{props.nome}</h3>
-          <p className="text-white">{props.descricao}</p>
+          <h3 className="text-amber-900 text-xl font-bold">{props.nome}</h3>
+          <p>{props.descricao}</p>
         </div>
       </div>
     </Link>

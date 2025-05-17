@@ -55,20 +55,18 @@ export default function Tabela({ results, ssName }: Props) {
 
   return (
     <div className="overflow-x-auto">
-      <h2 className="text-xl text-white font-semibold mb-2">
-        {ssName} - Resultados
-      </h2>
-      <Table striped>
-        <TableHead className="bg-gray-100">
-          <TableHeadCell>#</TableHeadCell>
-          <TableHeadCell>Piloto</TableHeadCell>
-          <TableHeadCell>Nac.</TableHeadCell>
-          <TableHeadCell>Carro</TableHeadCell>
-          <TableHeadCell>Tempo 1</TableHeadCell>
-          <TableHeadCell>Tempo 2</TableHeadCell>
-          <TableHeadCell>Tempo Final</TableHeadCell>
-          <TableHeadCell>Penalty</TableHeadCell>
-          <TableHeadCell>Tempo Total</TableHeadCell>
+      <h2 className="text-xl font-semibold mb-2">{ssName} - Resultados</h2>
+      <Table hoverable>
+        <TableHead className="text-amber-50">
+          <TableHeadCell className="bg-amber-800/80">#</TableHeadCell>
+          <TableHeadCell className="bg-amber-800/80">Piloto</TableHeadCell>
+          <TableHeadCell className="bg-amber-800/80">Nac.</TableHeadCell>
+          <TableHeadCell className="bg-amber-800/80">Carro</TableHeadCell>
+          <TableHeadCell className="bg-amber-800/80">Tempo 1</TableHeadCell>
+          <TableHeadCell className="bg-amber-800/80">Tempo 2</TableHeadCell>
+          <TableHeadCell className="bg-amber-800/80">Tempo Final</TableHeadCell>
+          <TableHeadCell className="bg-amber-800/80">Penalty</TableHeadCell>
+          <TableHeadCell className="bg-amber-800/80">Tempo Total</TableHeadCell>
         </TableHead>
         <TableBody className="divide-y">
           {sorted.map((racer, index) => {
@@ -80,9 +78,9 @@ export default function Tabela({ results, ssName }: Props) {
             return (
               <TableRow
                 key={racer["User name"]}
-                className="border-gray-700 bg-gray-800"
+                className="bg-amber-100/30 border-amber-900 hover:bg-amber-800/80 hover:text-white"
               >
-                <TableCell className="whitespace-nowrap font-medium text-white">
+                <TableCell className="whitespace-nowrap font-medium">
                   {index + 1}
                 </TableCell>
                 <TableCell>{racer["User name"]}</TableCell>
