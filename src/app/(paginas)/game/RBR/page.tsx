@@ -14,7 +14,7 @@ export default function Game() {
         />
         <RallyItem
           id="RBR"
-          url="/group4tarmac"
+          url="/game/RBR/group4tarmac"
           rallyName="RWD 4fun Tarmac"
           group="Grupo 4"
           imagem={imagem.group4Tarmac}

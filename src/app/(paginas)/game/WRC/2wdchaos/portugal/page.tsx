@@ -30,7 +30,7 @@ export default function Group4GravelPage() {
 
   return (
     <div className="p-4 container">
-      <div className="flex gap-2 mb-4">
+      <div className="flex flex-wrap md:flex-row items-center md:items-start justify-between text-center md:text-left gap-5 md:gap-0">
         {options.map((option) => (
           <button
             key={option}

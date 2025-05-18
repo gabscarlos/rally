@@ -33,6 +33,7 @@ export default function getCountryCode(country: string): string {
     SE: "se",
     GB: "gb",
     AU: "au",
+    GR: "gr",
   };
 
   return codes[country] || "white"; // fallback
