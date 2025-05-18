@@ -14,7 +14,7 @@ export default function Game() {
         />
         <RallyItem
           id="WRC"
-          url="/"
+          url="/game/WRC/hardcorebrasil"
           rallyName="HARDCORE BRASIL"
           group="4Fun"
           imagem={imagem.hardCoreBrasil}

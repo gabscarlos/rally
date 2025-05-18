@@ -1,4 +1,4 @@
-import SSInterfaceWRC from "../SSIterfaceWRC";
+import SSInterfaceWRC from "../../../SSIterfaceWRC";
 
 export const SS2: SSInterfaceWRC[] = [
   {

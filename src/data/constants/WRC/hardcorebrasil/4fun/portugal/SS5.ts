@@ -1,0 +1,66 @@
+import SSInterfaceWRC from "../../../SSIterfaceWRC";
+
+export const SS5: SSInterfaceWRC[] = [
+  {
+    Rank: 1,
+    DisplayName: "victortxai",
+    Vehicle: "Renault Clio Rally3",
+    Time: "00:06:51.0040000",
+    TimePenalty: "00:00:00",
+    DifferenceToFirst: "00:00:00",
+    Platform: "STEAM",
+    "": "",
+  },
+  {
+    Rank: 2,
+    DisplayName: "gabscarlos",
+    Vehicle: "Renault Clio Rally3",
+    Time: "00:07:27.3700000",
+    TimePenalty: "00:00:00",
+    DifferenceToFirst: "00:00:36.3660000",
+    Platform: "STEAM",
+    "": "",
+  },
+  {
+    Rank: 3,
+    DisplayName: "gofgamer",
+    Vehicle: "Ford Fiesta Rally3",
+    Time: "00:07:59.7850000",
+    TimePenalty: "00:00:00",
+    DifferenceToFirst: "00:01:08.7810000",
+    Platform: "STEAM",
+    "": "",
+  },
+  {
+    Rank: 4,
+    DisplayName: "DancyPolecat593",
+    Vehicle: "Renault Clio Rally3",
+    Time: "00:08:08.0390000",
+    TimePenalty: "00:00:00",
+    DifferenceToFirst: "00:01:17.0350000",
+    Platform: "XBOX",
+    "": "",
+  },
+  {
+    Rank: 5,
+    DisplayName: "PULGA147",
+    Vehicle: "Renault Clio Rally3",
+    Time: "00:16:00",
+    TimePenalty: "00:16:00",
+    DifferenceToFirst: "00:09:08.9960000",
+    Platform: "XBOX",
+    "": "",
+  },
+  {
+    Rank: 6,
+    DisplayName: "RaffaellRS",
+    Vehicle: "Ford Fiesta Rally3",
+    Time: "00:16:00",
+    TimePenalty: "00:16:00",
+    DifferenceToFirst: "00:09:08.9960000",
+    Platform: "STEAM",
+    "": "",
+  },
+];
+
+export default SS5;

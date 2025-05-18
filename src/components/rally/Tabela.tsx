@@ -55,7 +55,7 @@ export default function Tabela({ results, ssName }: Props) {
 
   return (
     <div className="overflow-x-auto">
-      <h2 className="text-xl font-semibold mb-2">{ssName} - Resultados</h2>
+      <h2 className="text-xl font-semibold mb-2"> Resultado {ssName}</h2>
       <Table hoverable>
         <TableHead className="text-amber-50">
           <TableHeadCell className="bg-amber-800/80">#</TableHeadCell>

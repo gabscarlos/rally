@@ -3,15 +3,15 @@
 import { useState } from "react";
 import TabelaWRC from "@/components/rally/TabelaWRC";
 import TabelaResultadoFinalWRC from "@/components/rally/TabelaResultadoFinalWRC";
-import ss1 from "@/data/constants/WRC/portugal/SS1";
-import ss2 from "@/data/constants/WRC/portugal/SS2";
-import ss3 from "@/data/constants/WRC/portugal/SS3";
-import finalResult from "@/data/constants/WRC/portugal/finalResult";
+import ss1 from "@/data/constants/WRC/hardcorebrasil/4fun/portugal/SS1";
+import ss2 from "@/data/constants/WRC/hardcorebrasil/4fun/portugal/SS2";
+import ss3 from "@/data/constants/WRC/hardcorebrasil/4fun/portugal/SS3";
+import finalResult from "@/data/constants/WRC/hardcorebrasil/4fun/portugal/finalResult";
 import { normalizeResultsWRC } from "@/data/utils/normalizeResultsWRC";
 import { normalizeFinalResultWRC } from "@/data/utils/normalizeFinalResultWRC";
-import SS4 from "@/data/constants/WRC/portugal/SS4";
-import SS5 from "@/data/constants/WRC/portugal/SS5";
-import SS6 from "@/data/constants/WRC/portugal/SS6";
+import SS4 from "@/data/constants/WRC/hardcorebrasil/4fun/portugal/SS4";
+import SS5 from "@/data/constants/WRC/hardcorebrasil/4fun/portugal/SS5";
+import SS6 from "@/data/constants/WRC/hardcorebrasil/4fun/portugal/SS6";
 
 const stages = {
   SS1: ss1,
@@ -30,7 +30,7 @@ export default function Group4GravelPage() {
 
   return (
     <div className="p-4 container">
-      <div className="flex flex-wrap md:flex-row items-center md:items-start justify-between text-center md:text-left gap-5 md:gap-0">
+      <div className="flex flex-wrap md:flex-row items-center md:items-start justify-around text-center md:text-left gap-5 md:gap-0 mb-5">
         {options.map((option) => (
           <button
             key={option}
@@ -45,6 +45,7 @@ export default function Group4GravelPage() {
           </button>
         ))}
       </div>
+      <h2 className="text-xl font-bold mb-2">Resultado {selectedOption}</h2>
 
       {selectedOption === "Final" ? (
         <TabelaResultadoFinalWRC

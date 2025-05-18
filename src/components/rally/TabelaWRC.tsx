@@ -25,7 +25,6 @@ export default function TabelaResultadoWRC({
 }: TabelaResultadoWRCProps) {
   return (
     <div className="overflow-x-auto">
-      <h2 className="text-xl font-bold mb-2">Resultado Final</h2>
       <Table hoverable>
         <TableHead className="text-amber-50">
           <TableHeadCell className="bg-amber-800/80">#</TableHeadCell>
