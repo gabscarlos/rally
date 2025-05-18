@@ -1,6 +1,6 @@
 import SSInterfaceWRC from "../constants/WRC/SSIterfaceWRC";
 
-export interface StageResult extends SSInterfaceWRC {
+export interface StageResultWRC extends SSInterfaceWRC {
   position: number;
   driver: string;
   car: string;
@@ -13,7 +13,9 @@ function formatTime(time: string): string {
   return time.replace(/(\.\d{3})0+$/, "$1"); // remove zeros após 3 casas decimais
 }
 
-export function normalizeResultsWRC(results: SSInterfaceWRC[]): StageResult[] {
+export function normalizeResultsWRC(
+  results: SSInterfaceWRC[]
+): StageResultWRC[] {
   // acessando o objeto dentro do array interno
   return results.map((result, index) => ({
     ...result,

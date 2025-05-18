@@ -1,6 +1,6 @@
 import FinalResultInterfaceWRC from "../constants/WRC/FinalResultInterfaceWRC";
 
-export interface ResultadoFinal extends FinalResultInterfaceWRC {
+export interface ResultadoFinalWRC extends FinalResultInterfaceWRC {
   position: number;
   driver: string;
   car: string;
@@ -14,7 +14,7 @@ function formatTime(time: string): string {
 
 export function normalizeFinalResultWRC(
   results: FinalResultInterfaceWRC[]
-): ResultadoFinal[] {
+): ResultadoFinalWRC[] {
   // acessando o objeto dentro do array interno
   return results.map((result, index) => ({
     ...result,

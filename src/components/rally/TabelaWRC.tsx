@@ -10,7 +10,6 @@ import {
 type ResultadoWRC = {
   position: number;
   driver: string;
-  nationality: string;
   car: string;
   time: string;
   diference: string;
@@ -18,6 +17,7 @@ type ResultadoWRC = {
 
 type TabelaResultadoWRCProps = {
   results: ResultadoWRC[];
+  ssName: string;
 };
 
 export default function TabelaResultadoWRC({

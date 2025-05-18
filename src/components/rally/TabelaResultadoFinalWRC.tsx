@@ -10,7 +10,6 @@ import {
 type ResultadoFinalWRC = {
   position: number;
   driver: string;
-  nationality: string;
   car: string;
   time: string;
   diference: string;
