@@ -83,7 +83,9 @@ export default function Tabela({ results, ssName }: Props) {
                 <TableCell className="whitespace-nowrap font-medium">
                   {index + 1}
                 </TableCell>
-                <TableCell>{racer["User name"]}</TableCell>
+                <TableCell>
+                  {racer["Real name"] || racer["User name"]}
+                </TableCell>
                 <TableCell className="px-2 py-1 text-center">
                   <div className="flex items-center gap-1">
                     <Image

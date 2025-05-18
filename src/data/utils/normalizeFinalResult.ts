@@ -16,7 +16,7 @@ export function normalizeFinalResult(
   return results.map((result, index) => ({
     ...result,
     position: index + 1,
-    driver: result.user_name,
+    driver: result.real_name || result.user_name,
     nationality: result.nationality,
     car: result.car,
     time: result.time3,
