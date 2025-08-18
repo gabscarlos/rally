@@ -43,7 +43,7 @@ export default function HomePage() {
         </p>
         <Link href="/game">
           <button className="mt-4 bg-amber-800/80 text-white font-bold px-6 py-2 rounded-xl hover:bg-amber-800">
-            Ver Campeonatos
+            Ver Resultados
           </button>
         </Link>
       </section>

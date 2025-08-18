@@ -15,6 +15,14 @@ export default function Cabecalho() {
           <Link href="/">
             <Logo />
           </Link>
+          <Link
+            href="/game"
+            className="flex items-center gap-2 text-orange-900 font-bold text-2xl"
+          >
+            <span className="bg-amber-800/80 text-white text-lg rounded-lg px-4 py-2">
+              Resultados
+            </span>
+          </Link>
         </div>
       </div>
       <div className="h-px bg-gradient-to-r from-orange-500/20 via-orange-900/80 to-orange-500/20"></div>

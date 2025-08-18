@@ -7,6 +7,13 @@ export default function Game() {
       <div className="flex flex-col sm:flex-row items-center md:items-start justify-between text-center md:text-left gap-5 md:gap-10">
         <RallyItem
           id="WRC"
+          url="/game/WRC/brc"
+          rallyName="BRC Brasil Rally"
+          group="Championship"
+          imagem={imagem.brc}
+        />
+        <RallyItem
+          id="WRC"
           url="/game/WRC/2wdchaos"
           rallyName="2WD Chaos"
           group="4Fun"

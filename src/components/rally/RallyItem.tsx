@@ -23,7 +23,7 @@ export function RallyItem(props: RallyItemProps) {
           height={100}
           className="object-contain"
         />
-        <div className="flex flex-col items-center mt-4">
+        <div className="flex flex-col items-center p-2">
           <h3 className="text-amber-900 text-xl font-bold">
             {props.rallyName}
           </h3>

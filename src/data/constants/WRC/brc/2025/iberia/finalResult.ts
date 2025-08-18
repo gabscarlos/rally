@@ -1,0 +1,78 @@
+import SSInterface from "../../../FinalResultInterfaceWRC";
+
+export const finalResult: SSInterface[] = [
+  {
+    Rank: 1,
+    DisplayName: "victortxai",
+    Vehicle: "Toyota GR Yaris Rally1 HYBRID (2024)",
+    Time: "01:05:40.3650000",
+    DifferenceToFirst: "00:00:00",
+    Platform: "STEAM",
+    "": "",
+  },
+  {
+    Rank: 2,
+    DisplayName: "Vale_Ak",
+    Vehicle: "Toyota GR Yaris Rally1 HYBRID (2024)",
+    Time: "01:06:07.4470000",
+    DifferenceToFirst: "00:00:27.0820000",
+    Platform: "STEAM",
+    "": "",
+  },
+  {
+    Rank: 3,
+    DisplayName: "RenatoAdami",
+    Vehicle: "Ford Puma Rally1 HYBRID (2024)",
+    Time: "01:19:57.5360000",
+    DifferenceToFirst: "00:14:17.1710000",
+    Platform: "XBOX",
+    "": "",
+  },
+  {
+    Rank: 4,
+    DisplayName: "PhoenixTerraJr",
+    Vehicle: "Ford Puma Rally1 HYBRID (2023)",
+    Time: "01:46:03.3310000",
+    DifferenceToFirst: "00:40:22.9660000",
+    Platform: "STEAM",
+    "": "",
+  },
+  {
+    Rank: 5,
+    DisplayName: "RaffaellRS",
+    Vehicle: "Toyota GR Yaris Rally1 HYBRID (2024)",
+    Time: "01:56:09.7140000",
+    DifferenceToFirst: "00:50:29.3490000",
+    Platform: "STEAM",
+    "": "",
+  },
+  {
+    Rank: 6,
+    DisplayName: "DancyPolecat593",
+    Vehicle: "Toyota GR Yaris Rally1 HYBRID (2024)",
+    Time: "01:59:13.5080000",
+    DifferenceToFirst: "00:53:33.1430000",
+    Platform: "XBOX",
+    "": "",
+  },
+  {
+    Rank: 7,
+    DisplayName: "brunnew",
+    Vehicle: "Hyundai i20 N Rally1 HYBRID (2024)",
+    Time: "02:05:45.4150000",
+    DifferenceToFirst: "01:00:05.0500000",
+    Platform: "STEAM",
+    "": "",
+  },
+  {
+    Rank: 8,
+    DisplayName: "adrianklein86",
+    Vehicle: "Hyundai i20 N Rally1 HYBRID (2023)",
+    Time: "02:31:58.3070000",
+    DifferenceToFirst: "01:26:17.9420000",
+    Platform: "STEAM",
+    "": "",
+  },
+];
+
+export default finalResult;

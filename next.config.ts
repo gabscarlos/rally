@@ -28,6 +28,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "ecdn.codemasters.com",
       },
+      {
+        protocol: "https",
+        hostname: "media.contentapi.ea.com",
+      },
     ],
   },
 };
