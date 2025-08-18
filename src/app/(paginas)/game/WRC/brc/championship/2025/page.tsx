@@ -50,6 +50,13 @@ export default function Game() {
         />
         <RallyItem
           id="WRC"
+          url="/game/WRC/brc/championship/2025/greece"
+          rallyName="Rally Greece"
+          group="WRC"
+          imagem={imagem.greece}
+        />
+        <RallyItem
+          id="WRC"
           url="/game/WRC/brc/championship/2025/tabela"
           rallyName="Tabela de Pontos"
           group="BRC"

@@ -4,20 +4,20 @@ import { useState } from "react";
 import TabelaWRC from "@/components/rally/TabelaWRC";
 import TabelaResultadoFinalWRC from "@/components/rally/TabelaResultadoFinalWRC";
 import TabelaDePontos from "@/components/rally/TabelaPontuacao";
-import ss1 from "@/data/constants/WRC/brc/2025/italia/SS1";
-import ss2 from "@/data/constants/WRC/brc/2025/italia/SS2";
-import ss3 from "@/data/constants/WRC/brc/2025/italia/SS3";
-import finalResult from "@/data/constants/WRC/brc/2025/italia/finalResult";
+import ss1 from "@/data/constants/WRC/brc/2025/greece/SS1";
+import ss2 from "@/data/constants/WRC/brc/2025/greece/SS2";
+import ss3 from "@/data/constants/WRC/brc/2025/greece/SS3";
+import finalResult from "@/data/constants/WRC/brc/2025/greece/finalResult";
 import { normalizeResultsWRC } from "@/data/utils/normalizeResultsWRC";
 import { normalizeFinalResultWRC } from "@/data/utils/normalizeFinalResultWRC";
-import SS4 from "@/data/constants/WRC/brc/2025/italia/SS4";
-import SS5 from "@/data/constants/WRC/brc/2025/italia/SS5";
-import SS6 from "@/data/constants/WRC/brc/2025/italia/SS6";
-import SS7 from "@/data/constants/WRC/brc/2025/italia/SS7";
-import SS8 from "@/data/constants/WRC/brc/2025/italia/SS8";
-import SS9 from "@/data/constants/WRC/brc/2025/italia/SS9";
-import SS10 from "@/data/constants/WRC/brc/2025/italia/SS10";
-import tabelaItalia from "@/data/constants/WRC/brc/2025/italia/tabelaItalia";
+import SS4 from "@/data/constants/WRC/brc/2025/greece/SS4";
+import SS5 from "@/data/constants/WRC/brc/2025/greece/SS5";
+import SS6 from "@/data/constants/WRC/brc/2025/greece/SS6";
+import SS7 from "@/data/constants/WRC/brc/2025/greece/SS7";
+import SS8 from "@/data/constants/WRC/brc/2025/greece/SS8";
+import SS9 from "@/data/constants/WRC/brc/2025/greece/SS9";
+import SS10 from "@/data/constants/WRC/brc/2025/greece/SS10";
+import tabelaGreece from "@/data/constants/WRC/brc/2025/greece/tabelaGreece";
 import Link from "next/link";
 
 const stages = {
@@ -48,7 +48,7 @@ const options = [
   "Pontuação",
 ] as const;
 
-export default function ItaliaPage() {
+export default function GreecePage() {
   const [selectedOption, setSelectedOption] =
     useState<(typeof options)[number]>("SS1");
 
@@ -60,7 +60,7 @@ export default function ItaliaPage() {
         />
       );
     } else if (selectedOption === "Pontuação") {
-      return <TabelaDePontos results={tabelaItalia} />;
+      return <TabelaDePontos results={tabelaGreece} />;
     } else {
       return (
         <TabelaWRC
