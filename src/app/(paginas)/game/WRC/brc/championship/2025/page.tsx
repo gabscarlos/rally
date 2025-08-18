@@ -43,9 +43,16 @@ export default function Game() {
         />
         <RallyItem
           id="WRC"
+          url="/game/WRC/brc/championship/2025/italia"
+          rallyName="Rally Italia Sardegna"
+          group="WRC"
+          imagem={imagem.italia}
+        />
+        <RallyItem
+          id="WRC"
           url="/game/WRC/brc/championship/2025/tabela"
           rallyName="Tabela de Pontos"
-          group="Brasil Rally Championship"
+          group="BRC"
           imagem="/pontos.png"
         />
       </div>

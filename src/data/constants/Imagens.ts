@@ -33,6 +33,9 @@ const imagem = {
 
   iberia:
     "https://ecdn.codemasters.com/ecdn/Racenet/PROD///WRC2023/event_locations/28.jpg",
+
+  italia:
+    "https://ecdn.codemasters.com/ecdn/Racenet/PROD///WRC2023/event_locations/7.jpg",
 };
 
 export default imagem;
