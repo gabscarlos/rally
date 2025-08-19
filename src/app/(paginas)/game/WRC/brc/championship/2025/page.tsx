@@ -64,6 +64,13 @@ export default function Game() {
         />
         <RallyItem
           id="WRC"
+          url="/game/WRC/brc/championship/2025/finland"
+          rallyName="Secto Rally Finland"
+          group="WRC"
+          imagem={imagem.finland}
+        />
+        <RallyItem
+          id="WRC"
           url="/game/WRC/brc/championship/2025/tabela"
           rallyName="Tabela de Pontos"
           group="BRC"

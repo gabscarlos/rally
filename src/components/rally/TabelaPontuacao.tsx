@@ -48,7 +48,7 @@ export default function TabelaResultadoWRC({ results }: TabelaInterfaceProps) {
           <h1 className="text-4xl font-bold text-amber-950 mb-2">
             Brasil Rally Championship 2025
           </h1>
-          <p className="text-amber-900 text-lg">Classificação Estágio</p>
+          <p className="text-amber-900 text-lg">Pontuação Estágio</p>
         </div>
 
         {/* Table Container */}
