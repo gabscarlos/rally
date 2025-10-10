@@ -45,6 +45,12 @@ const imagem = {
 
   finland:
     "https://ecdn.codemasters.com/ecdn/Racenet/PROD///WRC2023/event_locations/15.jpg",
+
+  pacifico:
+    "https://ecdn.codemasters.com/ecdn/Racenet/PROD///WRC2023/event_locations/14.jpg",
+
+  chile:
+    "https://ecdn.codemasters.com/ecdn/Racenet/PROD///WRC2023/event_locations/13.jpg",
 };
 
 export default imagem;
