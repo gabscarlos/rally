@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏁 Rally Results
 
-## Getting Started
+<div align="center">
+  <img src="https://github.com/gabscarlos/rally/raw/main/.gitassets/1.png" width="80%" />
+</div>
 
-First, run the development server:
+<div align="center">
+  <img src="https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/react-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/typescript-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/tailwindcss-38BDF8.svg?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧭 Sobre o projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O **Rally Results** é uma página dedicada à exibição de **resultados de rally** dos jogos **WRC 24** e **Richard Burns Rally (RBR)**.  
+A aplicação apresenta os tempos e penalidades de cada estágio especial (SS), oferecendo uma visualização organizada, responsiva e moderna dos resultados.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Destaques
 
-To learn more about Next.js, take a look at the following resources:
+- 🏎️ Exibição de resultados de rally dos jogos WRC 24 e RBR  
+- ⏱️ Tabelas dinâmicas com tempos e penalidades  
+- 📱 Layout responsivo com design limpo  
+- ⚡ Interface rápida e interativa desenvolvida com React e Tailwind CSS  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<div align="center">  
+  <img src="https://github.com/gabscarlos/rally/raw/main/.gitassets/2.png" width="80%" />
+  <br><br>
+  <img src="https://github.com/gabscarlos/rally/raw/main/.gitassets/3.png" width="80%" />
+  <br><br>
+  <img src="https://github.com/gabscarlos/rally/raw/main/.gitassets/4.png" width="80%" />
+</div>
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Explore agora
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👉 **[Acessar Rally Results](https://rallyresults.vercel.app/)**
+
+---
+
+## 🧠 Tecnologias utilizadas
+
+- Next.js  
+- React  
+- TypeScript  
+- Tailwind CSS  
+
+---
+
+<div align="center">
+  <sub>Projeto desenvolvido por <strong>Gabriel Carlos</strong> — veja mais em <a href="https://gabscarlos.vercel.app/" target="_blank">meu portfólio</a> 🏁</sub>
+</div>
