@@ -1,7 +1,7 @@
 # 🏁 Rally Results
 
 <div align="center">
-  <img src="https://rallyresults.vercel.app/icon.png" width="350" />
+  <img src="https://github.com/gabscarlos/rally/raw/main/.gitassets/1.png" width="80%" />
 </div>
 
 <div align="center">
@@ -29,8 +29,12 @@ A aplicação apresenta os tempos e penalidades de cada estágio especial (SS), 
 
 ---
 
-<div align="center">
-  <img src="https://rallyresults.vercel.app/demo.png" width="80%" />
+<div align="center">  
+  <img src="https://github.com/gabscarlos/rally/raw/main/.gitassets/2.png" width="80%" />
+  <br><br>
+  <img src="https://github.com/rally/raw/main/.gitassets/3.png" width="80%" />
+  <br><br>
+  <img src="https://github.com/gabscarlos/rally/raw/main/.gitassets/4.png" width="80%" />
 </div>
 
 ---
