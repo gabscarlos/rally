@@ -1,7 +1,7 @@
 # 🏁 Rally Results
 
 <div align="center">
-  <img src="https://github.com/gabscarlos/rally/raw/main/.gitassets/1.png" width="80%" />
+  <img src="https://github.com/gabscarlos/rally/raw/main/.gitassets/1.png" width="40%" />
 </div>
 
 <div align="center">
