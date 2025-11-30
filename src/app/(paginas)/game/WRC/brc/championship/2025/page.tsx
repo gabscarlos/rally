@@ -97,6 +97,13 @@ export default function Game() {
           group="BRC"
           imagem="/pontos.png"
         />
+        <RallyItem
+          id="WRC"
+          url="/game/WRC/brc/championship/2025/podium"
+          rallyName="Podium Championship"
+          group="BRC"
+          imagem="/podium.png"
+        />
       </div>
       <div className="mt-10">
         <Link
