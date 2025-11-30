@@ -17,7 +17,6 @@ import SS7 from "@/data/constants/WRC/brc/2025/centraleurope/SS7";
 import SS8 from "@/data/constants/WRC/brc/2025/centraleurope/SS8";
 import SS9 from "@/data/constants/WRC/brc/2025/centraleurope/SS9";
 import SS10 from "@/data/constants/WRC/brc/2025/centraleurope/SS10";
-import tabelaChile from "@/data/constants/WRC/brc/2025/centraleurope/tabelaCentralEurope";
 import Link from "next/link";
 import tabelaCentralEurope from "@/data/constants/WRC/brc/2025/centraleurope/tabelaCentralEurope";
 
