@@ -74,24 +74,40 @@ const ChampionsPodiumPage = () => {
   const [first, second, third] = topThree;
 
   // Animação de confete
-  const Confetti = () => (
-    <div className="absolute inset-0 overflow-hidden pointer-events-none">
-      {[...Array(30)].map((_, i) => (
-        <div
-          key={i}
-          className="absolute w-2 h-2 rounded-full animate-confetti"
-          style={{
-            left: `${Math.random() * 100}%`,
-            backgroundColor: ["#facc15", "#f59e0b", "#ef4444", "#3b82f6"][
-              Math.floor(Math.random() * 4)
-            ],
-            animationDelay: `${Math.random() * 3}s`,
-            animationDuration: `${3 + Math.random() * 2}s`,
-          }}
-        />
-      ))}
-    </div>
-  );
+  const Confetti = () => {
+    const [confetti, setConfetti] = React.useState<
+      { left: string; color: string; delay: string; duration: string }[]
+    >([]);
+
+    React.useEffect(() => {
+      const generated = [...Array(30)].map(() => ({
+        left: `${Math.random() * 100}%`,
+        color: ["#facc15", "#f59e0b", "#ef4444", "#3b82f6"][
+          Math.floor(Math.random() * 4)
+        ],
+        delay: `${Math.random() * 3}s`,
+        duration: `${3 + Math.random() * 2}s`,
+      }));
+      setConfetti(generated);
+    }, []);
+
+    return (
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {confetti.map((c, i) => (
+          <div
+            key={i}
+            className="absolute w-2 h-2 rounded-full animate-confetti"
+            style={{
+              left: c.left,
+              backgroundColor: c.color,
+              animationDelay: c.delay,
+              animationDuration: c.duration,
+            }}
+          />
+        ))}
+      </div>
+    );
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-200/20 via-amber-300/20 to-amber-200/20 p-4 py-12">
@@ -298,7 +314,7 @@ const ChampionsPodiumPage = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style jsx global>{`
         @keyframes slideUp {
           from {
             opacity: 0;
