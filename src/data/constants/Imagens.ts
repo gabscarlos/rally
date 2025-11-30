@@ -51,6 +51,9 @@ const imagem = {
 
   chile:
     "https://ecdn.codemasters.com/ecdn/Racenet/PROD///WRC2023/event_locations/13.jpg",
+
+  centralEurope:
+    "https://ecdn.codemasters.com/ecdn/Racenet/PROD///WRC2023/event_locations/29.jpg",
 };
 
 export default imagem;

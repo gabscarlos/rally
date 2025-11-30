@@ -13,6 +13,7 @@ import tabelaEstonia from "@/data/constants/WRC/brc/2025/estonia/tabelaEstonia";
 import tabelaFinland from "@/data/constants/WRC/brc/2025/finland/tabelaFinland";
 import tabelaPacifico from "@/data/constants/WRC/brc/2025/pacifico/tabelaPacifico";
 import tabelaChile from "@/data/constants/WRC/brc/2025/chile/tabelaChile";
+import tabelaCentralEurope from "@/data/constants/WRC/brc/2025/centraleurope/tabelaCentralEurope";
 
 // Tipo para os dados das tabelas
 interface RallyResult {
@@ -68,6 +69,7 @@ const RallyResultsTable = () => {
       tabelaFinland,
       tabelaPacifico,
       tabelaChile,
+      tabelaCentralEurope,
     ]);
   }, []);
 
